@@ -2,3 +2,5 @@
 
 print('Hello, world!')
 Print('HI')
+print('Hello, world!')
+Print('HI')
