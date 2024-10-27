@@ -1,18 +1,30 @@
 pipeline {
   agent any
+  
     stages {
-      stage ("sleep1")
+      stage ("sleep1") 
       {
-        sleep 10
-        sh "ls"
+        steps
+        {
+          sleep 10
+          sh "ls"
+        }
       }
-      stage ("sleep2")
+      stage ("sleep2") 
       {
-        sleep 10
+        steps
+        {
+          sleep 10
+          sh "ls"
+        }
       }
-      stage ("sleep3")
+      stage ("sleep3") 
       {
-        sleep 10
+        steps
+        {
+          sleep 10
+          sh "ls"
+        }
       }
     }
 }
